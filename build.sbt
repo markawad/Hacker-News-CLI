@@ -1,5 +1,4 @@
 name := "HackerNewsClient"
-organization := "cz.cvut.fit.bioop"
 version := "1.0"
 
 scalaVersion := "2.13.3"

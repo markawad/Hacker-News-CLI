@@ -1,9 +1,3 @@
-# Hacker News Client
-
-The main idea behind this project, is to fetch useful information from https://news.ycombinator.com through the command line. This is done with the help of the Hacker News API - https://github.com/HackerNews/API
-
-## Available Commands
-```
 Usage: hackernewsclient [options] [command] [command-options]
 
 [options]
@@ -31,28 +25,5 @@ hackernewscli --user=examp11
 hackernewscli --user=examp11 --display-stories --page=2 --size=5
 hackernewscli --display-comments=12345
 
-```
+Author: Mark Awad
 
-## Build
-
-The project can be build either using IntelliJ Idea directly or by using the following `sbt` command:
-
-```
-sbt assembly
-```
-
-This command compiles the entire code, runs the tests and produces a jar including all dependencies.
-
-## Usage
-
-Same as building, the project can be run through the IntelliJ Idea; by running the sbt command:
-
-```
-sbt "run top-stories --page=2"
-```
-
-or, after building with the `sbt assembly`, by running the prepared executable script:
-
-```
-./hnc top-stories --page=2
-```
